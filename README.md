@@ -19,7 +19,7 @@ Movement of the camera requires non-linear motor behavior
 Stepper motors STEP a fraction of an rpm per electronic pulse
 RPM can be controlled by rate of pulses sent to motors
 
-## Determine the step timing
+## Defining Variables
 
 ### We start by determining the dimensions of the grid
 
@@ -33,19 +33,23 @@ RPM can be controlled by rate of pulses sent to motors
 
 ![image](https://user-images.githubusercontent.com/22437742/196412625-fafc8d33-6a49-435f-b22b-c55925f699d4.png)
 
-## x and y of camera position across translation found with these formulas
+## (X,Y) Camera Position across translation found with these formulas
 
 ![image](https://user-images.githubusercontent.com/22437742/196412707-f9860628-331d-4ae5-967b-d64d702c3059.png)
 
-## Length of the cable from the top right corner found with this formula 
+## Cable Length from Top-Right-Motor found with this formula 
 
 ![image](https://user-images.githubusercontent.com/22437742/196414562-5f51b5f6-e9d3-4876-b39b-f2f97f648c0a.png)
 
 
-# Determining the step rate
+# Steppig the motor
 
 Once we know what the length of the cable *should* be at any time, we then step to that position, and make a variable that steps once more. If the next step is closer to the requisite position, then we step once more, and calculate the next one after again. So the resolution of the cable length is off by 1/2 step distance, but since there are hundreds of steps per rpm that is close enough. If the steps were much larger we would see shaky movement, but since they are small the movement will be smooth.
 
-# The code here
+# This instantiation
 
-This just demonstrates one translation and one motor using turtle. You can see that the shuttle moves at a constant rate but the top right corner step rate changes non linearly throughout the translation
+This just demonstrates one translation and one motor using python package turtle for graphically representing the translation. You can see that the shuttle moves at a constant rate but the top right corner step rate changes non linearly throughout the translation.
+
+## Code can be run at my repl
+
+https://replit.com/@gonzo/movement-via-time#main.py
