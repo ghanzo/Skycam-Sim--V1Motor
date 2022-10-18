@@ -14,12 +14,12 @@ Cables meet in the center of the stadium and connect to the camera.
 Cables length is controlled by motors.
 All 4 lengths determine the position.
 
-## Movement
+# Movement
 Movement of the camera requires non-linear motor behavior
 Stepper motors STEP a fraction of an rpm per electronic pulse
 RPM can be controlled by rate of pulses sent to motors
 
-### Determine the step timing
+## Determine the step timing
 
 ### We start by determining the dimensions of the grid
 
