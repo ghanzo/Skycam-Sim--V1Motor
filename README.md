@@ -8,16 +8,16 @@
 
 The camera can be positioned anywhere over the field by extending the 4 cables to the correct lengths!
 
-Controlled by 4 motors placed at ground level outside stadium.
-Cables strung in a rectangular pattern over the top of the stadium.
-Cables meet in the center of the stadium and connect to the camera.
-Cables length is controlled by motors.
-All 4 lengths determine the position.
+- Controlled by 4 motors placed at ground level outside stadium.
+- Cables strung in a rectangular pattern over the top of the stadium.
+- Cables meet in the center of the stadium and connect to the camera.
+- Cables length is controlled by motors.
+- All 4 lengths determine the position.
 
 # Movement
-Movement of the camera requires non-linear motor behavior
-Stepper motors STEP a fraction of an rpm per electronic pulse
-RPM can be controlled by rate of pulses sent to motors
+- Movement of the camera requires non-linear motor behavior
+- Stepper motors STEP a fraction of an rpm per electronic pulse
+- RPM can be controlled by rate of pulses sent to motors
 
 ## Defining Variables
 
