@@ -42,13 +42,13 @@ The camera can be positioned anywhere over the field by extending the 4 cables t
 ![image](https://user-images.githubusercontent.com/22437742/196414562-5f51b5f6-e9d3-4876-b39b-f2f97f648c0a.png)
 
 
-# Steppig the motor
+# Stepping the motor
 
 Once we know what the length of the cable *should* be at any time, we then step to that position, and make a variable that steps once more. If the next step is closer to the requisite position, then we step once more, and calculate the next one after again. So the resolution of the cable length is off by 1/2 step distance, but since there are hundreds of steps per rpm that is close enough. If the steps were much larger we would see shaky movement, but since they are small the movement will be smooth.
 
 # This instantiation
 
-This just demonstrates one translation and one motor using python package turtle for graphically representing the translation. You can see that the shuttle moves at a constant rate but the top right corner step rate changes non linearly throughout the translation.
+For demonstrating the math in simple form; one translation and one motor. Uses python package 'Turtle' for graphically representing the translation. Notice the camera, or what I am calling the 'shuttle', moves at a constant rate, but the top-right-motor step-rate changes non linearly throughout the translation.
 
 ## Code can be run at my repl
 
