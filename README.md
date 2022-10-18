@@ -33,11 +33,11 @@ RPM can be controlled by rate of pulses sent to motors
 
 ![image](https://user-images.githubusercontent.com/22437742/196412625-fafc8d33-6a49-435f-b22b-c55925f699d4.png)
 
-## x and y of the translations position across the time interval can be determined with these formulas
+## x and y of camera position across translation found with these formulas
 
 ![image](https://user-images.githubusercontent.com/22437742/196412707-f9860628-331d-4ae5-967b-d64d702c3059.png)
 
-## While the length of the cable from the top right corner is found with this formula 
+## Length of the cable from the top right corner found with this formula 
 
 ![image](https://user-images.githubusercontent.com/22437742/196414562-5f51b5f6-e9d3-4876-b39b-f2f97f648c0a.png)
 
