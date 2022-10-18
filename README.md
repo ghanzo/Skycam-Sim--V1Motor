@@ -21,9 +21,6 @@ RPM can be controlled by rate of pulses sent to motors
 
 ### Determine the step timing
 
-Start by creating a funtion that translates a point to another within the grid
-The point should move evenly across time
-
 ### We start by determining the dimensions of the grid
 
 ![image](https://user-images.githubusercontent.com/22437742/196411690-18810a2d-2860-47a4-bd04-6d09efc81c22.png)
