@@ -53,3 +53,7 @@ This just demonstrates one translation and one motor using python package turtle
 ## Code can be run at my repl
 
 https://replit.com/@gonzo/movement-via-time#main.py
+
+## Math demonstrated here
+
+https://www.desmos.com/calculator/h2k6fdmklq
