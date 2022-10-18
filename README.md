@@ -1,9 +1,9 @@
 ![nfl-camera](https://user-images.githubusercontent.com/22437742/196407908-cf30e197-1789-40a8-95c8-85206209ca5d.jpg)
 # Skycam-Sim - Version 1
 
-## Demonstrates stepper motor control to perform SkyCam movement in 2D
+## Motor Control for SkyCam movement in 2D
 
-### SkyCam used in NFL for dynamic aerial footage
+### NFL Skycam for dynamic aerial footage
 
 
 The camera can be positioned anywhere over the field by extending the 4 cables to the correct lengths!
